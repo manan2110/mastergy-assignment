@@ -1,5 +1,6 @@
 import datetime as dt
 
+# a dictionary to store number of days in a month
 month_days = {
     "january": 31,
     "february": 28,
@@ -28,6 +29,7 @@ def run():
     working_days = []
     for i in range(1, month_days[month] + 1):
         d = dt.datetime(2022, month_index, i)
+        # checking if the day is not a holiday or weekend
         if d.isoweekday() in range(1, 6) and i not in holidays:
             working_days.append(i)
     print("Number of working days are :", working_days)

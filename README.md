@@ -15,7 +15,7 @@ The required solution is in scripts/script.py file.
 ## How to run 
 1. Clone the repo to your local system
 
-    ```git clone https://github.com/manan2110/MedGuide.git ```
+    ```git clone https://github.com/manan2110/mastergy-assignment.git ```
 2. Create a virtual environment. You can use this [link](https://docs.python.org/3/library/venv.html) for reference.
 
     ``` python -m venv venv ```
