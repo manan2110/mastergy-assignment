@@ -10,7 +10,7 @@ Example:
     Workingdays: 3,4,6​,7,10,12,13,14,17,18,20,21,24,25,26,27,28, 31
 ```
 ## Solution : 
-The required solution is in scripts/script.py file.
+The required solution is in scripts/script.py file. The soltion is made considering Saturday and Sunday as weekend. 
 
 ## How to run 
 1. Clone the repo to your local system
