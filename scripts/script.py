@@ -20,8 +20,13 @@ month_days = {
 def run():
     month = str(input("Enter a month : "))
     month = month.lower()
-    month_index = list(month_days.keys()).index(month) + 1
+    if month in month_days.keys():
+        month_index = list(month_days.keys()).index(month) + 1
+    else:
+        print("No such month exists. Please check the month entered")
+        return None
     n = int(input("Enter number of holidays : "))
+    print("Enter the holidays (after entering every date do press the enter key): ")
     holidays = []
     for i in range(n):
         temp = int(input())
